@@ -1,0 +1,233 @@
+[0.011s] Invoking command in '/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface -DCMAKE_INSTALL_PREFIX=/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface
+[0.023s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.108s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.121s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.122s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.125s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.131s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.150s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.155s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.344s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.648s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.678s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.679s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.700s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.700s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.700s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.701s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.713s] -- Found PythonExtra: .so  
+[0.739s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.751s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.756s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.757s] -- Configured cppcheck include dirs: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/include;$<BUILD_INTERFACE:/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface/rosidl_generator_c>;$<BUILD_INTERFACE:/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface/rosidl_typesupport_introspection_cpp>;/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface/rosidl_generator_c;/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface/rosidl_generator_py
+[0.757s] -- Configured cppcheck exclude dirs and/or files: 
+[0.762s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.762s] -- Configured cpplint exclude dirs and/or files: 
+[0.763s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.765s] -- Added test 'lint_cmake' to check CMake code style
+[0.765s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.771s] -- Added test 'uncrustify' to check C / C++ code style
+[0.771s] -- Configured uncrustify additional arguments: 
+[0.772s] -- Added test 'xmllint' to check XML markup files
+[0.774s] -- Configuring done
+[0.795s] -- Generating done
+[0.804s] -- Build files have been written to: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface
+[0.809s] Invoked command in '/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface -DCMAKE_INSTALL_PREFIX=/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface
+[0.811s] Invoking command in '/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface -- -j22 -l22
+[0.843s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.853s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.855s] [  6%] Built target ament_cmake_python_copy_module_interface
+[1.005s] running egg_info
+[1.006s] creating module_interface.egg-info
+[1.006s] writing module_interface.egg-info/PKG-INFO
+[1.006s] writing dependency_links to module_interface.egg-info/dependency_links.txt
+[1.006s] writing top-level names to module_interface.egg-info/top_level.txt
+[1.006s] writing manifest file 'module_interface.egg-info/SOURCES.txt'
+[1.008s] reading manifest file 'module_interface.egg-info/SOURCES.txt'
+[1.008s] writing manifest file 'module_interface.egg-info/SOURCES.txt'
+[1.025s] [  6%] Built target ament_cmake_python_build_module_interface_egg
+[1.106s] [  6%] Built target module_interface__cpp
+[1.113s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.113s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.113s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.115s] [ 19%] [32mBuilding C object CMakeFiles/module_interface__rosidl_generator_c.dir/rosidl_generator_c/module_interface/action/detail/simple_action__functions.c.o[0m
+[1.203s] [ 22%] [32m[1mLinking C shared library libmodule_interface__rosidl_generator_c.so[0m
+[1.234s] [ 22%] Built target module_interface__rosidl_generator_c
+[1.244s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.245s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.245s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.277s] [ 35%] [32mBuilding CXX object CMakeFiles/module_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/module_interface/action/simple_action__type_support.cpp.o[0m
+[1.335s] [ 38%] [32mBuilding CXX object CMakeFiles/module_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/module_interface/action/detail/dds_fastrtps/simple_action__type_support.cpp.o[0m
+[1.336s] [ 41%] [32mBuilding CXX object CMakeFiles/module_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/module_interface/action/detail/simple_action__type_support.cpp.o[0m
+[1.425s] [ 45%] [32mBuilding CXX object CMakeFiles/module_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/module_interface/action/simple_action__type_support.cpp.o[0m
+[1.467s] [ 48%] [32m[1mLinking CXX shared library libmodule_interface__rosidl_typesupport_c.so[0m
+[1.477s] [ 51%] [32mBuilding CXX object CMakeFiles/module_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/module_interface/action/detail/simple_action__type_support_c.cpp.o[0m
+[1.498s] [ 54%] [32mBuilding C object CMakeFiles/module_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/module_interface/action/detail/simple_action__type_support.c.o[0m
+[1.500s] [ 54%] Built target module_interface__rosidl_typesupport_c
+[1.533s] [ 58%] [32m[1mLinking C shared library libmodule_interface__rosidl_typesupport_introspection_c.so[0m
+[1.562s] [ 58%] Built target module_interface__rosidl_typesupport_introspection_c
+[1.567s] [ 61%] [32m[1mLinking CXX shared library libmodule_interface__rosidl_typesupport_cpp.so[0m
+[1.601s] [ 61%] Built target module_interface__rosidl_typesupport_cpp
+[1.679s] [ 64%] [32m[1mLinking CXX shared library libmodule_interface__rosidl_typesupport_introspection_cpp.so[0m
+[1.697s] [ 67%] [32m[1mLinking CXX shared library libmodule_interface__rosidl_typesupport_fastrtps_c.so[0m
+[1.717s] [ 70%] [32m[1mLinking CXX shared library libmodule_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.733s] [ 70%] Built target module_interface__rosidl_typesupport_introspection_cpp
+[1.750s] [ 70%] Built target module_interface__rosidl_typesupport_fastrtps_c
+[1.767s] [ 70%] Built target module_interface__rosidl_typesupport_fastrtps_cpp
+[1.785s] [ 70%] Built target module_interface
+[1.802s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.222s] [ 74%] Built target module_interface__py
+[2.242s] [ 77%] [32mBuilding C object CMakeFiles/module_interface__rosidl_generator_py.dir/rosidl_generator_py/module_interface/action/_simple_action_s.c.o[0m
+[2.346s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/module_interface/libmodule_interface__rosidl_generator_py.so[0m
+[2.387s] [ 80%] Built target module_interface__rosidl_generator_py
+[2.404s] [ 83%] [32mBuilding C object CMakeFiles/module_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/module_interface/_module_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.405s] [ 87%] [32mBuilding C object CMakeFiles/module_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/module_interface/_module_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.406s] [ 90%] [32mBuilding C object CMakeFiles/module_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/module_interface/_module_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[2.478s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/module_interface/module_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.479s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/module_interface/module_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.481s] [100%] [32m[1mLinking C shared library rosidl_generator_py/module_interface/module_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.507s] [100%] Built target module_interface__rosidl_typesupport_introspection_c__pyext
+[2.507s] [100%] Built target module_interface__rosidl_typesupport_fastrtps_c__pyext
+[2.507s] [100%] Built target module_interface__rosidl_typesupport_c__pyext
+[2.518s] Invoked command in '/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface -- -j22 -l22
+[2.524s] Invoking command in '/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface
+[2.531s] -- Install configuration: ""
+[2.531s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/ament_index/resource_index/rosidl_interfaces/module_interface
+[2.531s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface
+[2.531s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/msg
+[2.531s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/msg/rosidl_generator_c__visibility_control.h
+[2.531s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action
+[2.532s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail
+[2.532s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__type_support.h
+[2.532s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__functions.c
+[2.532s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__struct.h
+[2.532s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__functions.h
+[2.532s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/simple_action.h
+[2.532s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/environment/library_path.sh
+[2.532s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/environment/library_path.dsv
+[2.532s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_generator_c.so
+[2.532s] -- Set runtime path of "/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_generator_c.so" to ""
+[2.533s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface
+[2.533s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/msg
+[2.533s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.533s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action
+[2.533s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail
+[2.533s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__rosidl_typesupport_fastrtps_c.h
+[2.533s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_typesupport_fastrtps_c.so
+[2.533s] -- Set runtime path of "/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[2.533s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface
+[2.533s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/msg
+[2.533s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.533s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action
+[2.533s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail
+[2.533s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__builder.hpp
+[2.534s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__type_support.hpp
+[2.534s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__traits.hpp
+[2.534s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__struct.hpp
+[2.534s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/simple_action.hpp
+[2.534s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface
+[2.534s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/msg
+[2.534s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.534s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action
+[2.534s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail
+[2.534s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/dds_fastrtps
+[2.534s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__rosidl_typesupport_fastrtps_cpp.hpp
+[2.534s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_typesupport_fastrtps_cpp.so
+[2.534s] -- Set runtime path of "/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[2.534s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface
+[2.534s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/msg
+[2.535s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.535s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action
+[2.535s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail
+[2.535s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__type_support.c
+[2.535s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__rosidl_typesupport_introspection_c.h
+[2.535s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_typesupport_introspection_c.so
+[2.535s] -- Set runtime path of "/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_typesupport_introspection_c.so" to ""
+[2.535s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_typesupport_c.so
+[2.535s] -- Set runtime path of "/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_typesupport_c.so" to ""
+[2.535s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface
+[2.535s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action
+[2.535s] -- Up-to-date: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail
+[2.535s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__rosidl_typesupport_introspection_cpp.hpp
+[2.535s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/include/module_interface/module_interface/action/detail/simple_action__type_support.cpp
+[2.535s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_typesupport_introspection_cpp.so
+[2.536s] -- Set runtime path of "/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[2.536s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_typesupport_cpp.so
+[2.536s] -- Set runtime path of "/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_typesupport_cpp.so" to ""
+[2.536s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/environment/pythonpath.sh
+[2.536s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/environment/pythonpath.dsv
+[2.536s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface-0.0.0-py3.10.egg-info
+[2.536s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.536s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface-0.0.0-py3.10.egg-info/top_level.txt
+[2.536s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.536s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[2.536s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface
+[2.536s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/module_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.537s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/_module_interface_s.ep.rosidl_typesupport_introspection_c.c
+[2.537s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/module_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.537s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/_module_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.537s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/libmodule_interface__rosidl_generator_py.so
+[2.537s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/__init__.py
+[2.537s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/action
+[2.537s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/action/_simple_action.py
+[2.537s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/action/_simple_action_s.c
+[2.537s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/action/__init__.py
+[2.537s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/_module_interface_s.ep.rosidl_typesupport_c.c
+[2.537s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/module_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.564s] Listing '/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface'...
+[2.564s] Compiling '/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/__init__.py'...
+[2.564s] Listing '/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/action'...
+[2.564s] Compiling '/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/action/__init__.py'...
+[2.564s] Compiling '/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/action/_simple_action.py'...
+[2.567s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/module_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.567s] -- Set runtime path of "/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/module_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.567s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/module_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.568s] -- Set runtime path of "/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/module_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.568s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/module_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.568s] -- Set runtime path of "/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/local/lib/python3.10/dist-packages/module_interface/module_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[2.568s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_generator_py.so
+[2.569s] -- Set runtime path of "/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/lib/libmodule_interface__rosidl_generator_py.so" to ""
+[2.569s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/action/SimpleAction.idl
+[2.569s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/action/SimpleAction.action
+[2.569s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/ament_index/resource_index/package_run_dependencies/module_interface
+[2.569s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/ament_index/resource_index/parent_prefix_path/module_interface
+[2.569s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/environment/ament_prefix_path.sh
+[2.569s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/environment/ament_prefix_path.dsv
+[2.570s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/environment/path.sh
+[2.570s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/environment/path.dsv
+[2.570s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/local_setup.bash
+[2.570s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/local_setup.sh
+[2.571s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/local_setup.zsh
+[2.571s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/local_setup.dsv
+[2.571s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/package.dsv
+[2.571s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/ament_index/resource_index/packages/module_interface
+[2.572s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/export_module_interface__rosidl_generator_cExport.cmake
+[2.572s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/export_module_interface__rosidl_generator_cExport-noconfig.cmake
+[2.572s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/export_module_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[2.572s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/export_module_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.572s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/export_module_interface__rosidl_generator_cppExport.cmake
+[2.573s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/export_module_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.573s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/export_module_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.573s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/module_interface__rosidl_typesupport_introspection_cExport.cmake
+[2.573s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/module_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.573s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/module_interface__rosidl_typesupport_cExport.cmake
+[2.574s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/module_interface__rosidl_typesupport_cExport-noconfig.cmake
+[2.574s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/module_interface__rosidl_typesupport_introspection_cppExport.cmake
+[2.574s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/module_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.574s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/module_interface__rosidl_typesupport_cppExport.cmake
+[2.574s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/module_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[2.575s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/export_module_interface__rosidl_generator_pyExport.cmake
+[2.575s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/export_module_interface__rosidl_generator_pyExport-noconfig.cmake
+[2.575s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.575s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/rosidl_cmake-extras.cmake
+[2.575s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.575s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[2.576s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/ament_cmake_export_targets-extras.cmake
+[2.576s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.576s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.576s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/module_interfaceConfig.cmake
+[2.576s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/cmake/module_interfaceConfig-version.cmake
+[2.577s] -- Installing: /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/install/module_interface/share/module_interface/package.xml
+[2.580s] Invoked command in '/home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wxyewb/Public/Work/Practice/proj_x/modules/module_interface/build/module_interface

@@ -1,0 +1,18 @@
+#open a terminal and enter proj_x/modules/module_x
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+ros2 run module_x component_x
+#open another terminal and enter proj_x/modules/module_x
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+ros2 service list
+ros2 lifecycle set /algorithm_x_wrapper configure
+ros2 lifecycle set /algorithm_x_wrapper activate
+ros2 param set /algorithm_x_wrapper param_num 5
+ros2 param set /algorithm_x_wrapper target_speed 4.0
+ros2 lifecycle set /algorithm_x_wrapper deactivate
+ros2 lifecycle set /algorithm_x_wrapper shutdown
+ros2 service call /standby std_srvs/srv/Trigger
+ros2 service call /activate std_srvs/srv/Trigger
+ros2 service call /emergency_stop std_srvs/srv/Trigger
+ros2 action send_goal /simple_action_server module_interface/action/SimpleAction "{goal: 5}" --feedback

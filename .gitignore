@@ -1,0 +1,5 @@
+modules/module_x/build/
+modules/module_x/install/
+modules/module_x/log/
+modules/module_x/test/build/
+modules/module_x/test/install/

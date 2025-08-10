@@ -1,0 +1,5 @@
+algorithm_x_wrapper:
+  ros__parameters:
+    param_method: 0
+    param_num: 5
+    target_speed: 3.0

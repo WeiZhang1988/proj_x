@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from module_interface/action/SimpleAction.action
+// generated code does not contain a copyright notice
+
+
+module module_interface {
+  module action {
+    struct SimpleAction_Goal {
+      int32 goal;
+    };
+    struct SimpleAction_Result {
+      sequence<int32> result;
+    };
+    struct SimpleAction_Feedback {
+      sequence<int32> feedback;
+    };
+  };
+};
