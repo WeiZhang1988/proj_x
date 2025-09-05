@@ -4,3 +4,5 @@ modules/module_x/log/
 modules/module_x/test/build/
 modules/module_x/test/install/
 modules/module_y/data/
+modules/module_y/build/
+modules/module_y/chamfer.egg-info/

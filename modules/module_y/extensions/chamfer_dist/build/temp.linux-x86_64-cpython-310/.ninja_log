@@ -1,0 +1,3 @@
+# ninja log v5
+1	30206	1757042178224978837	/home/wxyewb/Public/Work/proj_x/modules/module_y/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-310/chamfer_cuda.o	851408b60da6825d
+0	52121	1757042200139977500	/home/wxyewb/Public/Work/proj_x/modules/module_y/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-310/chamfer.o	da4de187c91c4822
