@@ -316,7 +316,7 @@ def main(nusc, nuscenesyaml, args, config):
         while int(i) < 10000:  # Assuming the sequence does not have more than 10000 frames
             if i >= len(dict_list):
                 print('finish scene!')
-                return
+                break
             dict = dict_list[i]
             is_key_frame = dict['is_key_frame']
             if not is_key_frame: # only use key frame as GT

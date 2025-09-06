@@ -1,4 +1,4 @@
-from occupancy_dataset import OccupancyDataset
+from .occupancy_dataset import OccupancyDataset
 
 __all__ = [
     'OccupancyDataset'

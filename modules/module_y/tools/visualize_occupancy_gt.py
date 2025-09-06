@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 def main(args):
   path = args.gt_path
   for item in os.listdir(path):
+    if (item != 'n015-2018-10-08-15-36-50+0800__LIDAR_TOP__1538984245447134.pcd.bin.npy'):
+      continue
     file = os.path.join(path, item)
     pc = np.load(file)
     print("gt shape: ", pc.shape)
