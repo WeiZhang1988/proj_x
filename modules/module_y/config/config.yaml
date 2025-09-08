@@ -7,3 +7,8 @@
 'pc_range':  [-50, -50, -5, 50, 50, 3]
 'occ_size':  [200, 200, 16]
 'self_range': [3.0, 3.0, 3.0]
+'cam_list': ['CAM_FRONT', 'CAM_FRONT_RIGHT', 'CAM_BACK_RIGHT', 'CAM_BACK', 'CAM_BACK_LEFT', 'CAM_FRONT_LEFT']
+'class_num': 17
+'batch_size': 8
+'learning_rate': 0.001
+'epoch_num': 10

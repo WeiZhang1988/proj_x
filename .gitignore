@@ -6,3 +6,7 @@ modules/module_x/test/install/
 modules/module_y/data/
 modules/module_y/build/
 modules/module_y/chamfer.egg-info/
+modules/module_y/extensions/chamfer_dist/build/
+modules/module_y/extensions/chamfer_dist/chamfer.egg-info/
+modules/module_y/extensions/chamfer_dist/dist/
+modules/module_y/checkpoint/

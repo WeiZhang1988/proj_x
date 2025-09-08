@@ -1,0 +1,54 @@
+The following is the steps to setup environment including docker using Nvidia GPU in China
+1,  install UBUNTU OS
+2,  adjust OS date and time
+3,  change source
+4,  install NVIDIA driver
+ubuntu-drivers devices
+sudo ubuntu-drivers autoinstall
+5,  install Cuda (note which version the driver can support)
+6,  install docker > 19.03
+7,  remove root privilege for docker
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+sudo chown "$USER":"$USER" /home/"$USER"/.docker -R
+sudo chmod g+rwx "$HOME/.docker" -R
+8,  install nvidia-container-runtime
+9,  install cuda
+10, install x11-server-utils
+11, run xhost +
+12, create host share folder to container
+12, create docker container
+docker run -it 
+	   --gpus all 
+	   -v ~/Share/[container name]:/home 
+	   -v /etc/localtime:/etc/localtime:ro 
+	   -v /tmp/.X11-unix:/tmp/.X11-unix
+	   -e DISPLAY=unix$DISPLAY
+	   -e GDK_SCALE
+	   -e GDK_DPI_SCALE
+	   --name [container name]
+	   [image name]
+	   /bin/bash
+13, install cuda
+in container do
+	wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
+	mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600
+	wget https://developer.download.nvidia.com/compute/cuda/12.4.0/local_installers/cuda-repo-ubuntu2204-12-4-local_12.4.0-550.54.14-1_amd64.deb
+	dpkg -i cuda-repo-ubuntu2204-12-4-local_12.4.0-550.54.14-1_amd64.deb
+	cp /var/cuda-repo-ubuntu2204-12-4-local/cuda-*-keyring.gpg /usr/share/keyrings/
+	apt-get update
+	apt-get -y install cuda-toolkit-12-4
+14, add host user and group to container
+in container do
+	apt-get update
+	apt-get install sudo
+	apt-get install vim
+	groupadd -g [host group id] [group name]
+	adduser --uid [host user id] -gid [host group id] [user name]
+	vim /etc/sudoers
+add in last line
+	[user name] ALL=(ALL:ALL) ALL
+restart container
+to use the container, do
+	docker exec -it -u [user name] [container name] /bin/bash

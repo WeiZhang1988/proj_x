@@ -1,7 +1,8 @@
 This is a simple example template with ROS2 humble and occupancy perception ground truth generation and application in network.
 
 Currently there are module_interface, module_x, and module_y in the project as examples
-module_y is specifically for occupancy.
+
+module_y is specifically for occupancy perception.
 
 For example template with ROS2 humble:
 
