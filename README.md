@@ -1,8 +1,13 @@
-This is a simple example template with ROS2 humble and occupancy perception ground truth generation and application in network.
+This project has two main goals:
+
+1, to provide a simple example template with ROS2 humble;
+
+2, to practice occupancy perception ground truth generation and application in network.
 
 Currently there are module_interface, module_x, and module_y in the project as examples
 
-module_y is specifically for occupancy perception.
+module_interface and module_x are for example template topic.
+module_y is for occupancy perception topic.
 
 For example template with ROS2 humble:
 
@@ -17,7 +22,10 @@ Test of algorithm is implemented in test folder with google test.
 Build it and run ctest can have the results.
 Some errors are added purposely to make the algorithm fail. See the code for detail.
 
-For occupancy:
+For occupancy perception:
 
-The module_y covers an occupancy ground truth generation tool using semantic segmentation of lidar point cloud. Then the generated ground truth will be used by model training, etc. Detail please refer to its own docs inside module_y
+The module_y implements a pipeline of occupancy ground truth generation based on semantic segmentation of lidar point cloud. 
+Nuscenes mini dataset is used for the generation and further network training.
+A series of dummy nueral network are implemented to utilize the generated data for training.
+Files are orgnized based on their functions. Detail report please refer to docs inside module_y.
 

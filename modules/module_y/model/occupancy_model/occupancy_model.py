@@ -46,6 +46,6 @@ class DummyOccupancyDetector(nn.Module):
     # Concatenate features from all cameras
     fused_features = torch.cat(camera_features, dim=1)
     # Final classification
-    output = self.fusion_net(fused_features).view(-1,self.occ_size[0]*self.occ_size[1]*self.occ_size[2],self.class_num)
+    output = self.fusion_net(fused_features).view(-1,self.class_num,*self.occ_size)
     
     return output

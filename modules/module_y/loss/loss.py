@@ -10,7 +10,7 @@ class DummyLoss(nn.Module):
     self.class_num = class_num
     self.criterion = nn.CrossEntropyLoss()
   def forward(self, pred, label):
-    loss = self.criterion(pred.view(-1,pred.shape[-1]),label.long().view(-1))
+    loss = self.criterion(pred, label.long()) #pred.view(-1,pred.shape[-1]),label.long().view(-1)
     return loss
     
     
